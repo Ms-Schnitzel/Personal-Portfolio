@@ -1,3 +1,8 @@
 .container-fluid {
   max-width: 1500px;
 }
+
+.home {
+  background-image: url("../img/christian-grab-AygJgCM_vto-unsplash.jpg");
+  background-position: center;
+}

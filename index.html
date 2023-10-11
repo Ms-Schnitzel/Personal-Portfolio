@@ -57,29 +57,33 @@
         <!-- === Home === -->
         <div class="container-fluid" id="home">
           <div class="row">
-            <div class="col-12 col-lg-6 h2 my-lg-5">Zachery Nielsen<br><hr><span class="h4">Altcademy Student<br><small>Fullstack Web Development</small></span></div>
-            <div class="col-12 col-lg-6 h4 mt-0 mb-5 my-lg-5"></div>
+            <div class="col-12 col-lg-6 d-flex ">
+              <div class=" h2 my-lg-5 text-dark border border-3 border-dark rounded-circle bg-light p-5">Zachery Nielsen<br><span class="h4 border-top border-dark">Altcademy Student<br><span class="h5">Fullstack Web Development</span></span></div>
+            </div>
+            
+            
           </div>
         </div>
+
         <!-- === portfolio example === -->
         <div class="container-fluid d-lg-flex justify-content-center" id="portfolio">
           <div class="col-12 col-lg-6">
-            <div class="h3">Chief Portfolio Website</div>
-            <div><img src="https://picsum.photos/600/400" class="img-fluid web-prim"></div>
+            <div class="h3 text-dark border border-3 border-dark rounded-pill bg-light d-inline-flex p-2">Chief Portfolio Website</div>
+            <div><img src="https://picsum.photos/600/400" class="img-fluid border border-dark border-4 rounded-3 web-prim d-flex mx-auto"></div>
           </div>
 
           <div class="col-12 col-lg-6 container">
             <div class="row">
               <div class="col-6 col-lg-12 flex-column justify-content-around">
-                <div class="d-flex flex-column flex-lg-row m-3">             
-                  <div><img src="https://picsum.photos/300/200" class="img-fluid web-sec"></div>
-                  <div class="h4 p-2">Secondary Portfolio Website</div>
+                <div class="d-flex flex-column flex-lg-row m-3 align-items-start">             
+                  <div><img src="https://picsum.photos/300/200" class="img-fluid border border-secondary border-4 rounded-3 web-sec my-4"></div>
+                  <div class="h4 text-dark border border-3 border-dark rounded-pill bg-light d-inline-flex mx-1 mt-lg-4 p-2">Secondary Portfolio Website</div>
                 </div>
               </div>
               <div class="col-6 col-lg-12 flex-column">
-                <div class="d-flex flex-column flex-lg-row m-3">             
-                  <div><img src="https://picsum.photos/300/200" class="img-fluid web-sec"></div>
-                  <div class="h4 p-2 order-lg-first">Tertiary Portfolio Website</div>
+                <div class="d-flex flex-column flex-lg-row m-3 align-items-end">             
+                  <div><img src="https://picsum.photos/300/200" class="img-fluid border border-secondary border-4 rounded-3 web-sec my-4"></div>
+                  <div class="h4 order-lg-first text-dark border border-3 border-dark rounded-pill bg-light d-inline-flex mx-1 mb-lg-4 p-2">Tertiary Portfolio Website</div>
                 </div>
               </div> 
             </div>  
@@ -88,19 +92,29 @@
         </div>
 
         <!-- === about quick links === -->
-        <div class="col-md-6 col-lg-12 my-5" id="about">
+        <div class="container-fluid" id="about">
           <div class="row">
-            <div class="col-6 col-lg-3 linkedin d-flex py-3">
-              <div><i class="fa-brands fa-linkedin"></i></div>
-              <div>Linkedin</div>
+            <div class="col-6 col-lg-3 linkedin d-flex align-items-center justify-content-center py-3">
+              <div class="border border-5 border-info rounded-pill d-flex bg-light px-3 py-2 h3">
+                <div><i class="fa-brands fa-linkedin text-dark"></i></div>
+                <a class="text-dark text-decoration-none" href="www.linkedin.com/in/zachery-nielsen-a2436523b">Linkedin</a>
+              </div>  
             </div>
-            <div class="col-6 col-lg-3 github d-flex py-3">
-              <div><i class="fa-brands fa-square-github"></i></div>
-              <div>Github</div>
+
+            <div class="col-6 col-lg-3 github d-flex align-items-center justify-content-center py-3">
+              <div class="border border-5 border-info rounded-pill d-flex bg-light px-3 py-2 h3">
+                <div><i class="fa-brands fa-square-github text-dark"></i></div>
+                <a class="text-dark text-decoration-none" href="https://github.com/Ms-Schnitzel">Github</a>
+              </div>  
             </div>
-            <div class="col-12 col-lg-6 altcademy py-3">
-              <div>Enrolled in the Fullstack Program at <span class="text-decoration-underline">https://www.altcademy.com/</span></div>
+
+            <div class="col-12 col-lg-6 altcademy py-3 d-flex align-items-center justify-content-center">
+              <div class="border border-5 border-info rounded-pill d-flex flex-column bg-light px-4 py-2 h5">
+                <div class="text-dark">Enrolled in the Fullstack Program at </div>
+                <a class="text-decoration-underline" href="https://www.altcademy.com/">https://www.altcademy.com/</a>
+              </div>  
             </div>
+
           </div>       
         </div>
       </div>
