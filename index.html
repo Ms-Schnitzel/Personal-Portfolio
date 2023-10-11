@@ -7,7 +7,8 @@
 
   <title>Zac's Portfolio</title>
 
-  <!-- Fonts -->
+  <!-- Fonts & Fontawesome -->
+  <script src="https://kit.fontawesome.com/e067495424.js" crossorigin="anonymous"></script>
 
   <!-- Bootstrap -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -18,15 +19,40 @@
 
 <body>
   <!-- ===== Header ===== -->
-  <header>
-    <div></div>
+  <header id="header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand ps-3" href="index.html">
+          <i class="fa-solid fa-code"></i>
+          <span class="h3 ps-2">Zach's Portfolio</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-md-0 pe-3">
+            <li class="nav-item ms-auto mx-1 my-1 h5">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ms-auto mx-1 my-1 h5">
+              <a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item ms-auto mx-1 my-1 h5">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
   </header>
 
+  <section id="about" class="about"></section>
 
 
 
-
-
+<!-- Bootsrap JS -->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
 
 </body>
 
